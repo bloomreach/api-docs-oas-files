@@ -38,7 +38,7 @@ components:
     account_id:
       name: account_id
       in: query
-      description: Your site's numerical Bloomreach account ID. Your Bloomreach representative gives your site's account ID to you before or during your integration kickoff meeting.
+      description: Your site's numerical Bloomreach account ID. Your Bloomreach representative gives your site's account ID to you before or during integration kickoff meeting.
       required: true
       schema:
         type: string
