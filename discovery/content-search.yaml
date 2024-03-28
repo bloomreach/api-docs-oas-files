@@ -7,7 +7,8 @@ openapi: 3.1.0
 paths:
   /:
     get:
-      summary: Content Search API
+      tags: [Content Search API]
+      summary: Search non-product content data
       description:
         The Content Search API sends a keyword query to retrieve non-product
         content on your site. You can apply additional facets to return content

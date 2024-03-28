@@ -7,7 +7,8 @@ openapi: 3.1.0
 paths:
   /:
     get:
-      summary: Bestseller API
+      tags: [Bestseller API]
+      summary: Search bestseller products
       description:
         The Bestseller API returns the products that are likely to generate the
         most revenue.
